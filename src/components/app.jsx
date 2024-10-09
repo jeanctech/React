@@ -15,23 +15,23 @@ function App() {
             React.js
           </h1>
           <a href="https://vitejs.dev">
-            <img src={vite} id='logo-vite' className="m-1 p-1" alt="Vite-Logo" width={50} />
+            <img src={vite} id='logo-vite' className="m-1 p-1" alt="Vite-Logo" width={65} />
           </a>
           <a href="https://reactjs.dev">
-            <img src={react} id='logo-react' className="m-1 p-1" alt="React-Logo" width={50} />
+            <img src={react} id='logo-react' className="m-1 p-1" alt="React-Logo" width={65} />
           </a>
         </div>
         <div id="app-card"
           className="m-2.5 p-2.5 flex flex-row justify-center items-center" >
-          <button className="m-2.5 p-2.5 bg-[#23383b]" onClick={() => setCount((count) => count + 1)} >
+          <button className="m-2.5 p-2.5 text-[#ece92b] bg-[#23383b]" onClick={() => setCount((count) => count + 1)} >
             Count Is - {count}
           </button>
-          <p className="m-2.5 p-2.5 bg-[#2d3f42] text-slate-300 rounded-xl" >
-            Edit <code className="m-1 p-1 font-bold text-[#00D8FF]">./src/components/app.jsx</code> and Save to Test Hmr
+          <p className="m-2.5 p-2.5 bg-[#2d3f42] text-[#fff] rounded-xl" >
+            Edit <code className="m-1 p-1 text-lg font-bold text-[#30cfeb]">./src/components/app.jsx</code> and Save to Test Hmr.
           </p>
         </div>
-        <p id="read" className="m-2.5 p-2.5 bg-[#3c4446] rounded-lg"  >
-          Click on The Vite and React Logos to Learn More
+        <p id="read" className="m-2.5 p-2.5 bg-[#3c4446] text-[#fff] rounded-lg"  >
+          Click on The Vite and React Logos to Learn More.
         </p>
       </div>
     </>
